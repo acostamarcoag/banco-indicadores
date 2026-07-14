@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "autor": "Marco Antonio Acosta",
+    "institucion": "Acosconsulting",
+    "ultima_actualizacion": "julio 2026",
+    "licencia": "Se permite citar con atribución al autor y fuente. Marco Antonio Acosta · Acosconsulting · acosconsulting.webnode.ec"
+  },
+  "indicadores": [
+    {
+      "id": 1,
+      "categoria": "Mercado Laboral",
+      "cat_label": "Desajuste horizontal",
+      "titulo": "Desajuste horizontal por campo de formación",
+      "numero": "42,4%",
+      "numero_class": "rojo",
+      "kpis": [
+        { "num": "42,4%", "label": "desajuste nacional", "class": "rojo" },
+        { "num": "550.459", "label": "prof. fuera de campo", "class": "rojo" },
+        { "num": "1.296.913", "label": "prof. titulados ocupados", "class": "azul" }
+      ],
+      "descripcion": "4 de cada 10 profesionales ecuatorianos trabaja fuera de su campo de formación.",
+      "fuente": "ENEMDU 2025 · INEC",
+      "citado_en": "Ecuavisa 11 jun 2026 · Camello.ec 14 jun 2026 · La Hora 19 jun 2026",
+      "tipo_grafico": "barras_h_apiladas",
+      "grafico_titulo": "Dentro vs fuera del campo de formación (%)",
+      "grafico_sub": "ENEMDU 2025 · INEC",
+      "labels": ["TIC","Agricultura","Servicios","Cs. Naturales y Mat.","Artes y Humanidades","Ingeniería y Const.","Cs. Sociales y Derecho","Administración","Salud","Educación","PROMEDIO NACIONAL"],
+      "valores": {
+        "fuera": [61.7,56.4,54.2,52.1,47.4,46.3,44.8,42.6,32.9,29.8,42.4],
+        "dentro": [38.3,43.6,45.8,47.9,52.6,53.7,55.2,57.4,67.1,70.2,57.6]
+      },
+      "ficha": [
+        ["Metodología","CNTP 2019 × CIUO-08 Rev.1 · Tabla ETF 2022 y Montt (2015)"],
+        ["DOI","10.5281/zenodo.20185448"],
+        ["Citado en","Ecuavisa 11 jun, Camello.ec 14 jun, La Hora 19 jun 2026"]
+      ]
+    },
+    {
+      "id": 2,
+      "categoria": "Mercado Laboral",
+      "cat_label": "Ingreso por nivel educativo",
+      "titulo": "Ingreso laboral mensual por nivel de instrucción",
+      "numero": "$717",
+      "numero_class": "azul",
+      "kpis": [
+        { "num": "$1.128", "label": "mediana posgrado", "class": "azul" },
+        { "num": "$717", "label": "mediana universitario", "class": "azul" },
+        { "num": "$584", "label": "mediana técnico", "class": "azul" }
+      ],
+      "descripcion": "Un título universitario no garantiza un mejor sueldo: el trabajador típico gana $717 al mes.",
+      "fuente": "ENEMDU 2025 · INEC",
+      "citado_en": "La Hora 9 abr 2026 · Ecuavisa 1 may 2026 · Centro TV 1 may 2026 · LUMS TV 2 may 2026",
+      "tipo_grafico": "barras_v_educ",
+      "grafico_titulo": "Mediana y rango intercuartílico (USD dic 2025)",
+      "grafico_sub": "Solo empleados titulados · ENEMDU 2025",
+      "labels": ["Posgrado","Universitario","Técnico"],
+      "valores": {
+        "mediana": [1128,717,584],
+        "p25": [826,473,423],
+        "p75": [1794,1041,951]
+      },
+      "ficha": [
+        ["Filtro","solo personas con título registrado y en empleo"],
+        ["Deflactor","IPC diciembre 2025"],
+        ["Citado en","La Hora, Ecuavisa, Centro TV, LUMS TV"]
+      ]
+    },
+    {
+      "id": 3,
+      "categoria": "Mercado Laboral",
+      "cat_label": "Adultos mayores (65+)",
+      "titulo": "Ingreso laboral de adultos mayores vs canastas",
+      "numero": "$181",
+      "numero_class": "rojo",
+      "kpis": [
+        { "num": "$181", "label": "mediana 65+ años", "class": "rojo" },
+        { "num": "$566,12", "label": "canasta vital", "class": "azul" },
+        { "num": "$821,47", "label": "canasta básica", "class": "azul" }
+      ],
+      "descripcion": "Un adulto mayor que sigue trabajando gana 61% menos que un adulto en plena edad productiva.",
+      "fuente": "ENEMDU 2025 · INEC",
+      "citado_en": "Radio 96.9 FM Guayaquil 5 jun 2026",
+      "tipo_grafico": "barras_v",
+      "grafico_titulo": "Mediana 65+ vs canastas de referencia ($/mes)",
+      "grafico_sub": "ENEMDU 2025 · INEC",
+      "labels": ["Mediana salarial 65+","Canasta vital","Canasta básica"],
+      "valores": [181.2,566.12,821.47],
+      "ficha": [
+        ["Población 65+ activa","594.169 personas"],
+        ["Canasta básica","$821,47 (INEC mayo 2026)"],
+        ["Citado en","Radio 96.9 FM Guayaquil (5 jun 2026)"]
+      ]
+    },
+    {
+      "id": 4,
+      "categoria": "Ingresos",
+      "cat_label": "Ingreso del hogar por decil",
+      "titulo": "Distribución del ingreso total del hogar por decil",
+      "numero": "102,4%",
+      "numero_class": "rojo",
+      "kpis": [
+        { "num": "$1.135", "label": "ingreso promedio del hogar", "class": "azul" },
+        { "num": "$408", "label": "ingreso del decil más pobre (D1)", "class": "rojo" },
+        { "num": "102,4%", "label": "de su ingreso ya gastado, decil más pobre", "class": "rojo" }
+      ],
+      "descripcion": "El ingreso promedio del hogar es $1.135, pero el decil más pobre gana $408 y gasta 102,4% de lo que gana: ya está en negativo antes de cualquier imprevisto.",
+      "fuente": "ENIGHUR 2024–2025 · INEC",
+      "citado_en": "La Hora Ecuador · Radio 96.9 FM Guayaquil",
+      "tipo_grafico": "barras_v",
+      "grafico_titulo": "Ingreso mensual del hogar por decil ($)",
+      "grafico_sub": "ENIGHUR 2024–2025 · INEC",
+      "labels": ["D1","D2","D3","D4","D5","D6","D7","D8","D9","D10"],
+      "valores": [408,552,668,773,892,1010,1164,1348,1705,2834],
+      "ficha": [
+        ["Encuesta","ENIGHUR 2024–2025, la primera en 12 años"],
+        ["Gasto en alimentos, decil más pobre","$61 al mes"],
+        ["Hogares en riesgo","2.7 millones de hogares (~9 millones de personas): los 5 deciles más pobres gastan entre 87% y 102% de su ingreso"],
+        ["Bajo un salario básico","35,7% de los hogares ecuatorianos"]
+      ]
+    },
+    {
+      "id": 5,
+      "categoria": "Ingresos",
+      "cat_label": "Incremento del pasaje",
+      "titulo": "Carga del incremento del pasaje por quintil",
+      "numero": "7,96%",
+      "numero_class": "rojo",
+      "kpis": [
+        { "num": "7,96%", "label": "carga Q1 (más pobre)", "class": "rojo" },
+        { "num": "0,71%", "label": "carga Q5 (más rico)", "class": "azul" },
+        { "num": "12,7x", "label": "brecha Q1/Q5", "class": "rojo" }
+      ],
+      "descripcion": "El alza del pasaje cuesta 12 veces más a los pobres que a los ricos.",
+      "fuente": "ENEMDU Anual 2025 · INEC",
+      "citado_en": "",
+      "tipo_grafico": "barras_v",
+      "grafico_titulo": "Carga relativa del incremento por quintil (%)",
+      "grafico_sub": "ENEMDU 2025 · INEC",
+      "labels": ["Q1 (más pobre)","Q2","Q3","Q4","Q5 (más rico)"],
+      "valores": [7.96,2.75,2.11,1.44,0.71],
+      "ficha": [
+        ["Incremento","$0,10 por viaje"],
+        ["Viajes/mes","44 (2 viajes/día × 22 días)"],
+        ["Impacto anual","$787,3 millones"]
+      ]
+    },
+    {
+      "id": 6,
+      "categoria": "Desigualdad Educativa",
+      "cat_label": "Brecha educativa 447x",
+      "titulo": "Brecha educativa D10 vs D1 por nivel educativo",
+      "numero": "447x",
+      "numero_class": "rojo",
+      "kpis": [
+        { "num": "447x", "label": "brecha per cápita universidad", "class": "rojo" },
+        { "num": "217x", "label": "brecha por hogar universidad", "class": "rojo" },
+        { "num": "61x", "label": "brecha total educación", "class": "azul" }
+      ],
+      "descripcion": "El hogar más rico gasta 447 veces más en educación universitaria que el más pobre.",
+      "fuente": "ENIGHUR 2024–2025 · INEC",
+      "citado_en": "",
+      "tipo_grafico": "barras_comp",
+      "grafico_titulo": "Gasto educativo D1 vs D10 ($/persona/mes)",
+      "grafico_sub": "ENIGHUR 2024–2025 · INEC",
+      "labels": ["Educ. universitaria","Educ. superior total","Básica sup. y bachillerato","Inicial y primaria","Total educación"],
+      "valores": {
+        "d1": [0.06,0.27,0.68,0.68,2.03],
+        "d10": [26.82,58.19,26.38,26.67,124.72]
+      },
+      "ficha": [
+        ["Variable","gasto en educación reportado por el hogar"],
+        ["Tamaño hogar","D1: 4.56 · D10: 2.17"]
+      ]
+    },
+    {
+      "id": 7,
+      "categoria": "Desigualdad Educativa",
+      "cat_label": "Trampa intergeneracional",
+      "titulo": "Gasto educativo según fuente de ingreso del hogar",
+      "numero": "2,9x",
+      "numero_class": "rojo",
+      "kpis": [
+        { "num": "$38,14", "label": "gasto salario+rentas", "class": "azul" },
+        { "num": "$13,19", "label": "gasto solo trabajo", "class": "rojo" },
+        { "num": "2,9x", "label": "brecha estructural", "class": "rojo" }
+      ],
+      "descripcion": "Un hogar con rentas e inversiones gasta casi el triple en educación que uno que solo vive del trabajo.",
+      "fuente": "ENIGHUR 2024–2025 · INEC",
+      "citado_en": "",
+      "tipo_grafico": "barras_h",
+      "grafico_titulo": "Gasto educativo por fuente de ingreso ($/mes)",
+      "grafico_sub": "ENIGHUR 2024–2025 · INEC",
+      "labels": ["Asalariado + capital","Diversificado","Independiente + capital","Trabajo dependiente","Asal. + independiente","Cuenta propia","Renta de capital pura","Sin ingreso clasificado"],
+      "valores": [38.14,25.87,15.36,13.19,11.95,10.78,7.49,5.13],
+      "ficha": [
+        ["Cruce","ingreso salarial neto + ingreso por renta de la propiedad y capital"],
+        ["Hogares salario+rentas","65.942 (1,2% del total)"]
+      ]
+    },
+    {
+      "id": 8,
+      "categoria": "Precios e Inflación",
+      "cat_label": "Efecto cascada IPC",
+      "titulo": "Variación anual de precios (mayo 2026 vs mayo 2025)",
+      "numero": "68,27%",
+      "numero_class": "rojo",
+      "kpis": [
+        { "num": "68,27%", "label": "incremento diésel", "class": "rojo" },
+        { "num": "-47,68%", "label": "variación electricidad", "class": "azul" },
+        { "num": "$201", "label": "brecha hogar mediano vs canasta", "class": "rojo" }
+      ],
+      "descripcion": "El diésel subió 68% y el hogar absorbe el costo sin poder repercutirlo.",
+      "fuente": "Boletín IPC mayo 2026 · INEC",
+      "citado_en": "Ecuavisa 24 jun 2026",
+      "tipo_grafico": "barras_h",
+      "grafico_titulo": "Variación anual por producto (%)",
+      "grafico_sub": "mayo 2026 vs mayo 2025 · INEC",
+      "labels": ["Diésel","Gas. alto oct.","Gas. bajo oct.","Agua","Transporte","Salud","Electricidad"],
+      "valores": [68.27,32.59,24.24,24.10,5.90,4.12,-47.68],
+      "ficha": [
+        ["Mecanismo","Productor → Transportista → Comerciante → Hogar"],
+        ["Citado en","Ecuavisa 24 jun 2026"]
+      ]
+    }
+  ]
+}
