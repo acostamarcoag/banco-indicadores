@@ -588,6 +588,69 @@
           "Financiero, petróleo y construcción"
         ]
       ]
+    },
+    {
+      "id": 10,
+      "categoria": "Desigualdad Nutricional",
+      "cat_label": "Ley de Engel en Ecuador",
+      "titulo": "La Ley de Engel en Ecuador: gasto alimentario y desigualdad nutricional",
+      "numero": "37,5%",
+      "numero_class": "rojo",
+      "kpis": [
+        {
+          "num": "37,5%",
+          "label": "del consumo del decil más pobre va a alimentos, vs 10,8% del más rico",
+          "class": "rojo"
+        },
+        {
+          "num": "$24,47",
+          "label": "gasto en alimentos por persona al mes, decil más pobre",
+          "class": "rojo"
+        },
+        {
+          "num": "24%",
+          "label": "desnutrición crónica infantil, quintil más pobre (ENDI 2023)",
+          "class": "rojo"
+        }
+      ],
+      "descripcion": "El decil más pobre destina 37,5% de su consumo a alimentos, 3,5 veces más que el decil más rico (10,8%). Aun así, gasta 2,7 veces menos en dólares por persona — un presupuesto tan ajustado que se refleja en que 24% de los niños del quintil más pobre sufre desnutrición crónica.",
+      "fuente": "ENIGHUR 2024–2025 · ENDI 2022–2024 · INEC",
+      "citado_en": "",
+      "tipo_grafico": "barras_comp",
+      "grafico_titulo": "Peso del gasto alimentario en el presupuesto, D1 vs D10 (%)",
+      "grafico_sub": "ENIGHUR 2024–2025 · INEC",
+      "labels": [
+        "% del consumo en alimentos",
+        "% del ingreso en alimentos"
+      ],
+      "valores": {
+        "d1": [
+          37.5,
+          27.3
+        ],
+        "d10": [
+          10.8,
+          5.1
+        ]
+      },
+      "ficha": [
+        [
+          "Fuente principal",
+          "ENIGHUR 2024–2025 · Cuadros 2.1.4, 2.2.1, 2.3.1, 2.3.3, INEC"
+        ],
+        [
+          "Encuesta nutricional cruzada",
+          "ENDI 2022–2023 y 2023–2024, INEC, con asistencia de UNICEF, BID y Banco Mundial"
+        ],
+        [
+          "Validación",
+          "El total nacional de gasto en alimentos calculado coincide exactamente con el dato publicado por el INEC; los deciles fueron validados contra el Cuadro 2.2.1 del INEC"
+        ],
+        [
+          "La paradoja del gasto",
+          "El decil más pobre gasta 2,7 veces menos en alimentos por persona que el más rico, pese a destinarle una proporción mucho mayor de su presupuesto"
+        ]
+      ]
     }
   ]
 }
